@@ -25,6 +25,6 @@ if __name__ == '__main__':
     sum_a  = sum(a[ind_s+1::])
     a = sorted(a, key=lambda x: (0 if s <= x <= b else 1, x))
 
-    print(ind)
-    print(sum_a)
+    print("номер максимального по модулю элемента списка", ind)
+    print("сумму элементов списка, расположенных после первого положительного элемента",sum_a)
     print(a)
