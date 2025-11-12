@@ -3,12 +3,12 @@
 
 if __name__ == '__main__':
 
-    A = list(map(int, input().split()))
-    sum_A = 0
-    count_A = 0
-    for i in A:
+    a = list(map(int, input().split()))
+    sum_a = 0
+    count_a = 0
+    for i in a:
         if (i < 0) and (i % 7 == 0):
-            count_A += 1
-            sum_A += i
+            count_a += 1
+            sum_a += i
 
-    print(f"Количество = {count_A}\n Сумма = {sum_A}")
+    print(f"Количество = {count_a}\n Сумма = {sum_a}")

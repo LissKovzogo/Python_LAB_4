@@ -15,7 +15,10 @@ if __name__ == '__main__':
     if abs(min_a) > max_a:
         ind = a.index(min_a)
 
-    ind_s = next((i for i, num in enumerate(a) if num > 0))
+    i for i, num in enumerate(a):
+        if num > 0:
+            ind_s = i
+            break
 
     sum_a  = sum(a[ind_s+1::])
     a = sorted(a, key=lambda x: (0 if s <= x <= b else 1, x))
