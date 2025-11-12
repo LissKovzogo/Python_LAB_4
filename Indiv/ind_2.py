@@ -15,7 +15,7 @@ if __name__ == '__main__':
     if abs(min_a) > max_a:
         ind = a.index(min_a)
 
-    i for i, num in enumerate(a):
+    for i, num in enumerate(a):
         if num > 0:
             ind_s = i
             break
